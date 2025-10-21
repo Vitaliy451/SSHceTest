@@ -1,0 +1,66 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : true,
+      "overwriteActivityTime" : false,
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel leo ut nibh facilisis cursus vitae vel leo. Pellentesque sed placerat risus, et suscipit lorem. Nullam id feugiat massa."
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "637aa2e0-6d53-11f0-9871-3537796d785b"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "6c6cba80-ae5a-11f0-80dc-a13212beee54"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "6c6cba80-ae5a-11f0-80dc-a13212beee54"
+    },
+    "label" : "Hello",
+    "name" : "Smoke Device",
+    "softwareId" : null,
+    "type" : "NEPTUNE-360"
+  },
+  "credentials" : {
+    "credentialsId" : "KQXTZjF9lnIcZ86TIBut",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1761037000908,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1761037000900,
+      "longValue" : 1761037000900,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}
