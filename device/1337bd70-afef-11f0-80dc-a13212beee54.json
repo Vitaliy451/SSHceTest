@@ -31,7 +31,7 @@
       "entityType" : "DEVICE",
       "id" : "1337bd70-afef-11f0-80dc-a13212beee54"
     },
-    "label" : "",
+    "label" : "test",
     "name" : "testDev",
     "softwareId" : null,
     "type" : "otaTest"
@@ -47,8 +47,24 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1761210180344,
+      "lastUpdateTs" : 1761212201544,
       "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1761212201539,
+      "longValue" : 1761212201538,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1761211582586,
+      "longValue" : 1761211581271,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
