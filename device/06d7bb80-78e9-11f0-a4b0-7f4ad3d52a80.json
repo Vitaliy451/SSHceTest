@@ -28,7 +28,7 @@
       "entityType" : "DEVICE",
       "id" : "06d7bb80-78e9-11f0-a4b0-7f4ad3d52a80"
     },
-    "label" : "",
+    "label" : "software device",
     "name" : "software device",
     "softwareId" : null,
     "type" : "OTA software profile"
@@ -38,7 +38,6 @@
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : false,
