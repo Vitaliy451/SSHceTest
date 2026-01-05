@@ -20,7 +20,7 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "2beccc80-03d2-11f0-b49e-73e9f982809f"
+      "id" : "e59a2df0-ea52-11f0-9cd7-0f3ea7d51746"
     },
     "externalId" : null,
     "firmwareId" : null,
@@ -31,7 +31,7 @@
     "label" : "",
     "name" : "alarmDevice",
     "softwareId" : null,
-    "type" : "default"
+    "type" : "AlarmDevice"
   },
   "credentials" : {
     "credentialsId" : "Ll0anVaglyk0Z4pd088X",
@@ -40,12 +40,20 @@
   },
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1767630347228,
+      "lastUpdateTs" : 1767630389220,
       "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1767630416196,
+      "longValue" : 1767630413810,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
