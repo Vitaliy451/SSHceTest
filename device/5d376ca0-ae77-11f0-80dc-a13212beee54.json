@@ -20,9 +20,12 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "2beccc80-03d2-11f0-b49e-73e9f982809f"
+      "id" : "e59a2df0-ea52-11f0-9cd7-0f3ea7d51746"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "5d376ca0-ae77-11f0-80dc-a13212beee54"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
@@ -31,7 +34,7 @@
     "label" : "label",
     "name" : "SHHdevice",
     "softwareId" : null,
-    "type" : "default"
+    "type" : "AlarmDevice"
   },
   "credentials" : {
     "credentialsId" : "dIYzl2rKjMcbEbQFhAYr",
@@ -39,7 +42,23 @@
     "credentialsValue" : null
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1761051220956,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1761051220948,
+      "longValue" : 1761051220948,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   },
   "calculatedFields" : [ ]
